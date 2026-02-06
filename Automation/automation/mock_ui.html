@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ASTRA Mock UI</title>
+</head>
+<body>
+    <textarea id="codeInput"></textarea>
+    <button id="analyzeBtn" onclick="analyze()">Analyze</button>
+    <pre id="output"></pre>
+
+    <script>
+        function analyze() {
+            let code = document.getElementById("codeInput").value;
+            if (code.includes("prin(")) {
+                document.getElementById("output").innerText = "print(x)";
+            } else {
+                document.getElementById("output").innerText = "No error";
+            }
+        }
+    </script>
+</body>
+</html>

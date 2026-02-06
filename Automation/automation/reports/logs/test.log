@@ -1,0 +1,62 @@
+2026-02-06 14:40:34,618 - ERROR - Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=144.0.7559.133)
+Stacktrace:
+0   chromedriver                        0x0000000100c77928 cxxbridge1$str$ptr + 3098388
+1   chromedriver                        0x0000000100c6fc04 cxxbridge1$str$ptr + 3066352
+2   chromedriver                        0x000000010075283c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x000000010074aa00 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 42692
+4   chromedriver                        0x000000010073d11c cxxbridge1$string$len + 5152
+5   chromedriver                        0x000000010073ec24 cxxbridge1$string$len + 12072
+6   chromedriver                        0x000000010073d588 cxxbridge1$string$len + 6284
+7   chromedriver                        0x000000010073cd30 cxxbridge1$string$len + 4148
+8   chromedriver                        0x000000010073ca5c cxxbridge1$string$len + 3424
+9   chromedriver                        0x000000010073a620 chromedriver + 222752
+10  chromedriver                        0x000000010073b0ec chromedriver + 225516
+11  chromedriver                        0x0000000100755d30 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 88564
+12  chromedriver                        0x00000001007dbad4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 636824
+13  chromedriver                        0x00000001007dafe8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634028
+14  chromedriver                        0x000000010079007c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326976
+15  chromedriver                        0x0000000100c36884 cxxbridge1$str$ptr + 2831984
+16  chromedriver                        0x0000000100c39fcc cxxbridge1$str$ptr + 2846136
+17  chromedriver                        0x0000000100c1b578 cxxbridge1$str$ptr + 2720612
+18  chromedriver                        0x0000000100c3a850 cxxbridge1$str$ptr + 2848316
+19  chromedriver                        0x0000000100c0b640 cxxbridge1$str$ptr + 2655276
+20  chromedriver                        0x0000000100c5e194 cxxbridge1$str$ptr + 2994048
+21  chromedriver                        0x0000000100c5e310 cxxbridge1$str$ptr + 2994428
+22  chromedriver                        0x0000000100c6f85c cxxbridge1$str$ptr + 3065416
+23  libsystem_pthread.dylib             0x0000000191119c08 _pthread_start + 136
+24  libsystem_pthread.dylib             0x0000000191114ba8 thread_start + 8
+
+2026-02-06 14:42:09,618 - ERROR - Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=144.0.7559.133)
+Stacktrace:
+0   chromedriver                        0x00000001050d3928 cxxbridge1$str$ptr + 3098388
+1   chromedriver                        0x00000001050cbc04 cxxbridge1$str$ptr + 3066352
+2   chromedriver                        0x0000000104bae83c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x0000000104ba6a00 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 42692
+4   chromedriver                        0x0000000104b9911c cxxbridge1$string$len + 5152
+5   chromedriver                        0x0000000104b9ac24 cxxbridge1$string$len + 12072
+6   chromedriver                        0x0000000104b99588 cxxbridge1$string$len + 6284
+7   chromedriver                        0x0000000104b98d30 cxxbridge1$string$len + 4148
+8   chromedriver                        0x0000000104b98a5c cxxbridge1$string$len + 3424
+9   chromedriver                        0x0000000104b96620 chromedriver + 222752
+10  chromedriver                        0x0000000104b970ec chromedriver + 225516
+11  chromedriver                        0x0000000104bb1d30 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 88564
+12  chromedriver                        0x0000000104c37ad4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 636824
+13  chromedriver                        0x0000000104c36fe8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634028
+14  chromedriver                        0x0000000104bec07c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326976
+15  chromedriver                        0x0000000105092884 cxxbridge1$str$ptr + 2831984
+16  chromedriver                        0x0000000105095fcc cxxbridge1$str$ptr + 2846136
+17  chromedriver                        0x0000000105077578 cxxbridge1$str$ptr + 2720612
+18  chromedriver                        0x0000000105096850 cxxbridge1$str$ptr + 2848316
+19  chromedriver                        0x0000000105067640 cxxbridge1$str$ptr + 2655276
+20  chromedriver                        0x00000001050ba194 cxxbridge1$str$ptr + 2994048
+21  chromedriver                        0x00000001050ba310 cxxbridge1$str$ptr + 2994428
+22  chromedriver                        0x00000001050cb85c cxxbridge1$str$ptr + 3065416
+23  libsystem_pthread.dylib             0x0000000191119c08 _pthread_start + 136
+24  libsystem_pthread.dylib             0x0000000191114ba8 thread_start + 8
+
+2026-02-06 14:52:20,285 - INFO - ASTRA corrected code successfully
+2026-02-06 14:59:39,428 - INFO - ASTRA corrected code successfully
+2026-02-06 14:59:59,443 - INFO - ASTRA corrected code successfully
+2026-02-06 15:03:42,471 - INFO - ASTRA corrected code successfully
