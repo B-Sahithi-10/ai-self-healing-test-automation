@@ -1,0 +1,28 @@
+def calc_average(nums):
+    total = 0
+    for i in nums:
+        if isinstance(i, (int, float)):
+            total += i
+        else:
+            raise ValueError(f"Value: non-numeric value '{i}' found in the list.")
+    return total / len(nums) if total != 0 else 0
+
+
+def read_file(path):
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return f.read()
+    except FileNotFoundError:
+        print("File not found. Please check the file path and permissions.")
+        return None
+    except Exception as e:
+        print(f"An error occurred while reading the file: {e}")
+        return None
+
+
+numbers = [10]
+avg = calc_average(numbers)
+print("Average is " + str(avg))
+
+content = read_file("not_found.txt")
+print(content)

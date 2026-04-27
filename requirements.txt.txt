@@ -1,0 +1,9 @@
+ruff
+black
+isort
+pytest
+pytest-cov
+pandas
+numpy
+scikit-learn
+joblib
